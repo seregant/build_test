@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/501army/go-tv-show/forms"
+	"tv-show-api/forms"
 	"github.com/gin-gonic/gin"
 )
 

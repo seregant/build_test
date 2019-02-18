@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/501army/go-tv-show/controllers"
+	"tv-show-api/controllers"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"

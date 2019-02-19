@@ -74,20 +74,11 @@ func main() {
 	{
 		v1.GET("/", func(c *gin.Context) {
 			c.JSON(200, gin.H{
-				"message": "Welcome to my API",
+				"message": "Welcome to TESTING DOCKER",
 			})
 		})
 		v1.GET("/schedule", doRequest.Schedule)
 		v1.GET("/search", doRequest.Search)
-	}
-
-	test := router.Group("/test")
-	{
-		test.GET("/", func(c *gin.Context) {
-			c.JSON(200, gin.H{
-				"message": "Test 123",
-			})
-		})
 	}
 
 	router.Run(":" + viper.GetString("port"))

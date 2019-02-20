@@ -74,7 +74,7 @@ func main() {
 	{
 		v1.GET("/", func(c *gin.Context) {
 			c.JSON(200, gin.H{
-				"message": "Welcome to API V1",
+				"message": "Welcome to PRESENTASI DOCKER",
 			})
 		})
 		v1.GET("/schedule", doRequest.Schedule)

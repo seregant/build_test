@@ -54,6 +54,7 @@ func main() {
 	}
 
 	doRequest := new(controllers.RequestController)
+	//testing
 	// db.Init()
 	// peopleController.Create()
 	if viper.GetString("mode") == "production" {
